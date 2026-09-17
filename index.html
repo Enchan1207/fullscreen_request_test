@@ -12,7 +12,7 @@
         height: 100vh;
       }
 
-      #frame {
+      #fullscreen-frame {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -24,7 +24,7 @@
 
     <script>
       const main = () => {
-        const frame = document.getElementById('frame')
+        const frame = document.getElementById('fullscreen-frame')
         if (frame == null) {
           return
         }
@@ -48,7 +48,7 @@
     </script>
   </head>
   <body>
-    <div id="frame">
+    <div id="fullscreen-frame">
       <div class="container">
         <p>FullScreen</p>
         <button id="button">Click!</button>
